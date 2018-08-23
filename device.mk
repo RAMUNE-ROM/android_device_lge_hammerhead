@@ -390,6 +390,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # set default USB configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
     persist.sys.usb.config=mtp,adb
 
 # Request modem to send PLMN name always irrespective
