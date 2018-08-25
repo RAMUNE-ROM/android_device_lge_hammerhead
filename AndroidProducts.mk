@@ -1,3 +1,4 @@
+
 #
 # Copyright 2013 The Android Open Source Project
 #
@@ -15,4 +16,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage.mk
+    $(LOCAL_DIR)/aosp_hammerhead.mk \
+    $(LOCAL_DIR)/full_hammerhead.mk \
+    $(LOCAL_DIR)/dot.mk
